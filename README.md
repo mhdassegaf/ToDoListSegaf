@@ -1,16 +1,31 @@
-# flutterl
+a. Nama:
+  Muhammad Syekh Assegaf
 
-A new Flutter project.
+b. Judul Project:
+-T oDoList Flutter App dengan Firebase
 
-## Getting Started
+c. Deskripsi Fungsionalitas Aplikasi:
+  Aplikasi ini merupakan aplikasi manajemen tugas (To-Do List) yang memungkinkan pengguna untuk mencatat, mengedit, menandai, dan menghapus daftar tugas harian mereka. Fitur utama meliputi:
+- Login untuk masuk ke aplikasi menggunakan Firebase Authentication.
+- Menambahkan tugas baru beserta tanggal sebagai pengingat.
+- Mengedit tugas yang sudah ada.
+- Menandai tugas sebagai selesai.
+- Mengedit tugas yang sudah ada, termasuk mengubah tanggal dan waktu melalui tampilan kalender yang mudah digunakan.
+- Mendukung tampilan dark mode untuk kenyamanan pengguna dalam kondisi cahaya rendah.
+- Menghapus tugas dari daftar.
+- Penyimpanan data secara real-time menggunakan Firebase Firestore.
 
-This project is a starting point for a Flutter application.
+d. Teknologi yang Digunakan:
+- Flutter (framework utama pengembangan aplikasi)
+- Dart (bahasa pemrograman)
+- Firebase Authentication (untuk login pengguna)
+- Firebase Firestore (untuk penyimpanan data tugas)
+- Visual Studio Code (VSCode) (sebagai code editor)
+- Android Emulator (untuk menjalankan dan menguji aplikasi)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+e. Cara Menjalankan Aplikasi:
+- Buat emulator di Android Studio jika belum ada (buka AVD Manager → Create Virtual Device).
+- Buka proyek Flutter di VSCode.
+- Pilih emulator dari menu “Select a device to use” di bagian atas VSCode.
+- Buka file main.dart, lalu klik Run and Debug atau tekan F5.
+- Aplikasi akan berjalan di emulator.
